@@ -137,3 +137,44 @@ text-align: center;
     background-color: rgb(255, 187, 0);
 
 }
+
+
+
+/* primer portafolios */
+
+#canvas1 {
+
+    position: absolute;
+    
+}
+
+#controls {
+
+    position: absolute;
+    z-index: 100;
+
+}
+
+#image1 {
+
+display: none;
+
+}
+
+#contenedor {
+
+
+    margin: 0;
+    padding: 0;
+   height: 720px;
+   width: 100%;
+   
+}
+
+#warpButton {
+
+    padding: 20px;
+
+}
+
+/* primer portafolios */
