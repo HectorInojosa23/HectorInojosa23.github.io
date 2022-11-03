@@ -25,7 +25,7 @@ canvas.height = contedor.clientHeight;
             this.distance = 0;
             this.force = 0;
             this.angle = 0;           
-            this.fricction = 0.8;
+            this.fricction = 0.90;
         }
 
 
