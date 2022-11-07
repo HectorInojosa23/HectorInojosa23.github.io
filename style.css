@@ -17,6 +17,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', end
     position: relative;
     animation-name: uno;
     animation-duration: 1s;
+    font-size: xx-large;
+    text-align: justify;
+    margin-right: 5%;
 
 }
 
@@ -66,6 +69,7 @@ text-align: center;
     position: relative;
     animation-name: example;
     animation-duration: 3s;
+    margin-bottom: 30px;
     
 }
 
