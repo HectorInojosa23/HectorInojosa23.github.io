@@ -23,6 +23,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', end
 
 }
 
+@media only screen and (max-width: 600px) {
+
+#uno {
+
+    font-size: larger;
+
+}
+
+
+}
+
 #dos {
 
     position: relative;
@@ -70,6 +81,7 @@ text-align: center;
     animation-name: example;
     animation-duration: 3s;
     margin-bottom: 30px;
+    font-size: larger;
     
 }
 
