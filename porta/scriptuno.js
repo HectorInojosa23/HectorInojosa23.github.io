@@ -1,11 +1,12 @@
 window.addEventListener('load', function(){
 
-const contedor = this.document.getElementById('contenedor');    
-const canvas = this.document.getElementById('canvas1');
-const ctx = canvas.getContext('2d');
 
-canvas.width = contedor.clientWidth;
-canvas.height = contedor.clientHeight;
+    const contedor = document.getElementById('contenedor');    
+    const canvas = document.getElementById('canvas1');
+    const ctx = canvas.getContext('2d');
+    
+    canvas.width = contedor.innerWidth;
+    canvas.height = contedor.innerHeight;
 
 
     class Particle {
@@ -96,11 +97,7 @@ canvas.height = contedor.clientHeight;
 
             init(context) {
 
-                /*
-                for (let i = 0; i <= 100; i++) {
-
-                    this.particlesArray.push(new Particle(this));
-                }*/
+                
                 context.drawImage(this.image, this.x, this.y);
                 const pixel = context.getImageData(0, 0, this.width, this.height).data;
 
@@ -145,7 +142,7 @@ canvas.height = contedor.clientHeight;
 
 
     const effect = new Effect(canvas.width, canvas.height);
-    effect.init(ctx);
+    effect.init(ctx); 
     
 
     function animate () {
@@ -164,7 +161,11 @@ canvas.height = contedor.clientHeight;
 
     effect.warp();
 
-   });
-    
+   });    
+
+
 
 });
+
+
+

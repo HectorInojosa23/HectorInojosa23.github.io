@@ -221,6 +221,7 @@ text-align: center;
 
 }
 
+
 #image1 {
 
 display: none;
@@ -232,8 +233,8 @@ display: none;
 
     margin: 0;
     padding: 0;
-   height: 720px;
-   width: 100%;
+   min-height: 550px;
+   width: auto;
    
 }
 
