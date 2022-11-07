@@ -13,24 +13,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', end
 }
 
 #uno {
-
     position: relative;
     animation-name: uno;
     animation-duration: 1s;
-    font-size: xx-large;
+    font-size: larger;
     text-align: justify;
-    margin-right: 5%;
+    padding-right: 5%;
 
 }
 
-@media only screen and (max-width: 768px) {
+#uno > h1 {
+
+    font-size: xx-large;
+
+
+}
+
+@media only screen and (max-width: 1000px) {
 
 #uno {
 
-    font-size: larger;
+    font-size: large;
 
 }
 
+#uno > h1 {
+
+    font-size: larger;
+
+
+}
 
 }
 
