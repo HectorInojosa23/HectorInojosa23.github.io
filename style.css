@@ -17,7 +17,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', end
     animation-name: uno;
     animation-duration: 1s;
     font-size: larger;
-    text-align: center;
+    text-align: justify;
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
@@ -60,6 +60,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', end
     padding-bottom: 2%;
 
 }
+
+@media only screen and (max-width: 1000px) {
+
+    #dos {
+    
+        padding-top: 5%;
+    
+    }
+    
+    }
 
 
 @keyframes uno {
