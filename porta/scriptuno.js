@@ -159,6 +159,7 @@ window.addEventListener('load', function(){
    const warpButton = document.getElementById('warpButton');
    warpButton.addEventListener('click', function() {
 
+    const effect = new Effect(canvas.width, canvas.height);
     effect.warp();
 
    });    
