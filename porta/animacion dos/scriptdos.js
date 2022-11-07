@@ -22,7 +22,7 @@ canvas.addEventListener('click', function(event){
 
     mouse.x = event.x;
     mouse.y = event.y;
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < 2; i++) {
         particleArray.push(new Particle());
     }
 
