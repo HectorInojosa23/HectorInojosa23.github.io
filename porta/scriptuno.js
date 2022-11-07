@@ -141,7 +141,7 @@ window.addEventListener('load', function(){
     }
 
 
-    const effect = new Effect(canvas.width, canvas.height);
+    /*const effect = new Effect(canvas.width, canvas.height);
     effect.init(ctx); 
     
 
@@ -153,7 +153,7 @@ window.addEventListener('load', function(){
 
     }
 
-    animate();
+    animate();*/
 
 // warpButton
    const warpButton = document.getElementById('warpButton');
