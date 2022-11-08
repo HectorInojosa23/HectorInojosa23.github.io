@@ -10,7 +10,6 @@ margin: 0;
 
 #canvas1 {
 
-    background-color: blue;
     position: absolute;
     z-index: -1;
     
@@ -30,15 +29,6 @@ display: none;
 
 }
 
-#contenedor {
-
-
-    margin: 0;
-    padding: 0;
-   height: 550px;
-   width: 100%;
-   
-}
 
 #warpButton {
 
