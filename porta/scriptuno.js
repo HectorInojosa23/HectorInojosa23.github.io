@@ -1,12 +1,10 @@
 window.addEventListener('load', function(){
-
-
-    const contedor = document.getElementById('contenedor');    
+    
     const canvas = document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
     
-    canvas.width = contedor.innerWidth;
-    canvas.height = contedor.innerHeight;
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
 
 
     class Particle {
@@ -141,7 +139,7 @@ window.addEventListener('load', function(){
     }
 
 
-    /*const effect = new Effect(canvas.width, canvas.height);
+    const effect = new Effect(canvas.width, canvas.height);
     effect.init(ctx); 
     
 
@@ -153,13 +151,12 @@ window.addEventListener('load', function(){
 
     }
 
-    animate();*/
+    animate();
 
 // warpButton
    const warpButton = document.getElementById('warpButton');
    warpButton.addEventListener('click', function() {
 
-    const effect = new Effect(canvas.width, canvas.height);
     effect.warp();
 
    });    

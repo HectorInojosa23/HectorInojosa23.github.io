@@ -204,50 +204,6 @@ text-align: center;
 
 
 
-
-
-/* primer portafolios */
-
-#canvas1 {
-
-    position: absolute;
-    
-}
-
-#controls {
-
-    position: absolute;
-    z-index: 100;
-
-}
-
-
-#image1 {
-
-display: none;
-
-}
-
-#contenedor {
-
-
-    margin: 0;
-    padding: 0;
-   height: 550px;
-   width: 100%;
-   
-}
-
-#warpButton {
-
-    padding: 20px;
-
-}
-
-/* primer portafolios */
-
-
-
 /* segundo portafolios */
 
 

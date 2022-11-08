@@ -1,0 +1,36 @@
+#canvas1 {
+
+    background-color: blue;
+    position: absolute;
+    
+}
+
+#controls {
+
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+#image1 {
+
+display: none;
+
+}
+
+#contenedor {
+
+
+    margin: 0;
+    padding: 0;
+   height: 550px;
+   width: 100%;
+   
+}
+
+#warpButton {
+
+    padding: 20px;
+
+}
