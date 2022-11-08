@@ -163,6 +163,3 @@ window.addEventListener('load', function(){
 
 
 });
-
-
-
