@@ -1,0 +1,40 @@
+body {
+
+margin: 0;
+padding: 0;
+
+}
+
+
+#primero {
+
+    margin: 0;
+padding: 0;
+    width: auto;
+    height: 100px;
+    background-color: black;
+
+}
+
+#canvas1 {
+
+background-color: blue;
+width: 100%;
+
+}
+
+#div {
+
+    width: auto;
+
+}
+
+#tercero {
+
+    margin: 0;
+padding: 0;
+    width: auto;
+    height: 100px;
+    background-color: black;
+
+}

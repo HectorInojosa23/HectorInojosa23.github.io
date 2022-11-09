@@ -1,5 +1,3 @@
-window.addEventListener('load', function(){
-    
     const canvas = document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
     canvas.width = window.innerWidth;
@@ -93,7 +91,6 @@ window.addEventListener('load', function(){
         }
 
             init(context) {
-
                 
                 context.drawImage(this.image, this.x, this.y);
                 const pixel = context.getImageData(0, 0, this.width, this.height).data;
@@ -138,6 +135,8 @@ window.addEventListener('load', function(){
     }
 
 
+window.addEventListener('load', function(){
+
     const effect = new Effect(canvas.width, canvas.height);
     effect.init(ctx); 
     
@@ -152,6 +151,7 @@ window.addEventListener('load', function(){
 
     animate();
 
+
 // warpButton
    const warpButton = document.getElementById('warpButton');
    warpButton.addEventListener('click', function() {
@@ -161,5 +161,35 @@ window.addEventListener('load', function(){
    });    
 
 
+
+});
+
+
+window.addEventListener('resize', function(){
+         
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    const effect = new Effect(canvas.width, canvas.height);
+    effect.init(ctx);
+    
+    function animate () {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);    
+        effect.draw(ctx);
+        effect.update();
+        requestAnimationFrame(animate);
+    
+        }
+       animate();
+
+
+       // warpButton
+const warpButton = document.getElementById('warpButton');
+warpButton.addEventListener('click', function() {
+
+effect.warp();
+
+});    
 
 });
