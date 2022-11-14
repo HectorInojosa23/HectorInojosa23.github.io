@@ -5,12 +5,12 @@ function changebody() {
 
       if (n === 0) {
 
-        backbody.style.backgroundColor = "rgb(255, 209, 157)";
+        backbody.style.backgroundColor = "rgb(219, 132, 51)";
         n = 1;
 
       } else {
 
-        backbody.style.backgroundColor = "rgb(168, 245, 149)";
+        backbody.style.backgroundColor = "rgb(69, 148, 50)";
         n = 0;
 
       }
