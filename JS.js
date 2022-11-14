@@ -1,11 +1,8 @@
-window.addEventListener('load', function(){
-
-
-    const uno = document.getElementById('u');
-    uno.style.backgroundColor = 'blue';
-    uno.style.width = '0%';
-    var red, blue, green, alpha;
-    
-    
-
-});
+function changeImage() {
+    var backbody = document.getElementsByTagName("body");
+    if (backbody.style.background-color == "#f3e2c7") {
+        backbody.style.background = "#ffffff"
+    } else {
+        backbody.style.background-color = "#f3e2c7";
+    }
+  }
