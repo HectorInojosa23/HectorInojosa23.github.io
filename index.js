@@ -1,4 +1,4 @@
-let n = 0;
+/*let n = 0;
 
 function changebody() {
     let backbody = document.getElementsByTagName("body")[0];
@@ -17,7 +17,7 @@ function changebody() {
 
     
 
-  }
+  }*/
 
   /*
 const bt = document.getElementById('cambio');

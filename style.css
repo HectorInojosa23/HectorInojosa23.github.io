@@ -2,12 +2,18 @@ body {
 
 margin: 0;
 padding: 0;
-background-color: rgb(159, 233, 130);
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffc578+17,fb9d23+63 */
+background: #ffc578; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffc578 17%, #fb9d23 63%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffc578 17%,#fb9d23 63%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffc578 17%,#fb9d23 63%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', endColorstr='#fb9d23',GradientType=0 ); /* IE6-9 */
+
 
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+/*
 #cambio {
 
     padding: 10px;
@@ -15,7 +21,7 @@ background-color: rgb(159, 233, 130);
     font-family: 'Lobster', cursive;
     font-size: large;
 
-}
+}*/
 
 #uno {
     position: relative;
