@@ -206,6 +206,25 @@ text-align: center;
 
   }
 
+  @media (max-width: 768px) {
+
+
+    #parallax {
+
+        min-height: 720px;
+        padding-top: 70px;
+    padding-bottom: 70px;
+
+
+    }
+
+
+
+
+
+
+  }
+
 
 
 #cuatro {
