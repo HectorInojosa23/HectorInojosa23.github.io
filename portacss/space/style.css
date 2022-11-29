@@ -294,13 +294,14 @@ text-align: center;
     .contenedor {
 
         width: 100%;
+        height: auto;
         flex-direction: column;
     
     }
 
     .contenido{
 
-        width: 60%;
+        width: 90%;
         justify-content: center;
 
     }
