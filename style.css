@@ -24,6 +24,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', end
 }*/
 
 
+#pofolioitem {
+
+text-decoration: none;
+text-align: center;
+align-items: center;
+color: black;
+font-weight: 500;
+
+}
+
+
+#primernav {
+
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+
 #uno {
     position: relative;
     animation-name: uno;
