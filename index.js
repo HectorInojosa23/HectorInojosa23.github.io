@@ -26,3 +26,37 @@ bt.addEventListener('click', function() {
 changebody();
 
 });    */
+
+
+
+window.addEventListener ('load', () => {
+
+/*
+  let timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone; 
+  console.log(timeZone);
+
+
+  const d = new Date();
+  let hour = d.getHours();*/
+
+
+  const observer = new IntersectionObserver((entries) => {
+
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          
+          entry.target.classList.add('show');
+        } 
+    
+    });
+  
+  
+  });
+  
+  
+  const hiddenElement = document.querySelectorAll('.hidden');
+  hiddenElement.forEach((el) => observer.observe(el));
+
+
+
+});

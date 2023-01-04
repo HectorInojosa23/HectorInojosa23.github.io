@@ -265,19 +265,79 @@ text-align: center;
 
 
 
+.hidden {
+
+opacity:  0;
+width: 0;
+background-color: azure;
+transition: all 1s ease;
+
+}
+
+.show {
+
+    opacity: 1;
+    width: 100%;
+
+}
+
+.show .ht {
+
+    opacity: 1;
+    width: 100%;
+
+}
+
+.show .cs {
+
+    opacity: 1;
+    width: 100%;
+
+}
+
+.show.s {
+
+    opacity: 1;
+    width: 95%;
+
+}
+
+.show.ph {
+
+    opacity: 1;
+    width: 85%;
+
+}
+
+.show.my {
+
+    opacity: 1;
+    width: 80%;
+
+}
+
+.show.wor {
+
+    opacity: 1;
+    width: 85%;
+
+}
 
 
+.barras {
+    justify-content: center;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.barra {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 5px;
+box-shadow: -3px 5px 3px -3px black;
 
 
+}
 
-
-
-
-
-
-
-/*  resume  */
-
-
-
-    /*  resume  */
