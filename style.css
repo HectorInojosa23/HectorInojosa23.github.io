@@ -341,3 +341,16 @@ box-shadow: -3px 5px 3px -3px black;
 
 }
 
+.cube {
+    transform: translate3d(0, 0, 0) rotate3d(1, 1, 0, 45deg) scale3d(2, 3, 1);
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: rgb(10, 53, 53);
+    box-shadow: -3px 8px 6px -3px rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 2%;
+  }
