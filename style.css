@@ -267,7 +267,7 @@ text-align: center;
 
 .hidden {
 
-opacity:  0;
+opacity: 0;
 width: 0;
 background-color: azure;
 transition: all 1s ease;
@@ -322,6 +322,21 @@ transition: all 1s ease;
     width: 85%;
 
 }
+
+.show.k {
+
+    opacity: 1;
+    width: 90%;
+
+}
+
+.show.andro {
+
+    opacity: 1;
+    width: 80%;
+
+}
+
 
 
 .barras {
