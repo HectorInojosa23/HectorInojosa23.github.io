@@ -288,19 +288,6 @@ transition: all 1s ease;
 
 }
 
-.show .cs {
-
-    opacity: 1;
-    width: 100%;
-
-}
-
-.show.s {
-
-    opacity: 1;
-    width: 95%;
-
-}
 
 .show.ph {
 
@@ -315,28 +302,6 @@ transition: all 1s ease;
     width: 80%;
 
 }
-
-.show.wor {
-
-    opacity: 1;
-    width: 85%;
-
-}
-
-.show.k {
-
-    opacity: 1;
-    width: 90%;
-
-}
-
-.show.andro {
-
-    opacity: 1;
-    width: 80%;
-
-}
-
 
 
 .barras {
