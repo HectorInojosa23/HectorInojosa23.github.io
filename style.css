@@ -334,3 +334,20 @@ box-shadow: -3px 5px 3px -3px black;
     text-align: center;
     padding-left: 2%;
   }
+
+  .containermix {
+
+    height: 350px;
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 10px;
+
+  }
+
+  .content {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
