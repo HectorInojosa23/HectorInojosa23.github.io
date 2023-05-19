@@ -337,10 +337,11 @@ box-shadow: -3px 5px 3px -3px black;
 
   .containermix {
 
-    height: 350px;
+    height: 370px;
     width: 90%;
     padding: 20px;
     margin-bottom: 10px;
+    padding-bottom: 60px;
 
   }
 
