@@ -239,7 +239,7 @@ text-align: center;
 
     }
 
-
+ 
 
 
 
@@ -276,6 +276,7 @@ transition: all 1s ease;
 
 .show {
 
+    
     opacity: 1;
     width: 100%;
 
@@ -283,6 +284,7 @@ transition: all 1s ease;
 
 .show .ht {
 
+    
     opacity: 1;
     width: 100%;
 
@@ -291,6 +293,7 @@ transition: all 1s ease;
 
 .show.ph {
 
+    
     opacity: 1;
     width: 85%;
 
@@ -335,20 +338,26 @@ box-shadow: -3px 5px 3px -3px black;
     padding-left: 2%;
   }
 
-  .containermix {
 
-    height: 370px;
-    width: 90%;
-    padding: 20px;
-    margin-bottom: 10px;
-    padding-bottom: 60px;
-
-  }
 
   .content {
 
+    overflow: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+
+  }
+
+  @media (max-width: 600px) {
+
+.contend {
+
+height: 420px;
+
+
+
+}
+
 
   }
