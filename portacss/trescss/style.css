@@ -1,0 +1,213 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #1a19194f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+header.scrolled {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.carousel {
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+
+  .carousel img {
+    width: 100%;
+    height: 500px;
+    display: block;
+  }
+
+  .carousel .prev,
+  .carousel .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+
+  .carousel .prev {
+    left: 10px;
+  }
+
+  .carousel .next {
+    right: 10px;
+  }
+
+
+
+
+
+  .containerbienvenida {
+    width: 80%; /* Ajusta el ancho según sea necesario */
+    margin-top: 10px;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    padding: 20px;  
+  }
+
+  .containerbienvenida h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+  }
+
+  .containerbienvenida p {
+    text-align: justify;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .content-section {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .content-item {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .content-item img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+  }
+
+  .content-item h3 {
+    margin-top: 10px;
+  }
+
+  .content-item p {
+    margin-top: 5px;
+  }
+
+  /* Estilos para pantallas pequeñas */
+  @media screen and (max-width: 768px) {
+    .content-item {
+      width: 48%;
+    }
+  }
+
+  /* Estilos para pantallas muy pequeñas */
+  @media screen and (max-width: 480px) {
+    .content-item {
+      width: 100%;
+    }
+  }
+
+.parallax {
+    background-image: url('https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_640.jpg'); /* Reemplaza con la URL de tu imagen */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px; /* Ajusta la altura según sea necesario */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parallax-content {
+    color: white;
+    text-align: center;
+    z-index: 10; /* Coloca el contenido por encima de la imagen */
+  }
+
+  .parallax-content h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+  }
+
+  .parallax-content p {
+    font-size: 1.2em;
+  }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}

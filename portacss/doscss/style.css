@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D9E8F3; /* Azul pastel claro */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #90AFC5; /* Azul suave */
+    color: #333333; /* Gris oscuro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos de secciones */
+header {
+    background-color: #B0C4DE; /* Azul grisáceo */
+    padding: 20px;
+}
+
+.hero {
+    background-color: #e9ecef; /* Gris claro */
+    padding: 40px 0;
+}
+
+.about, .projects, .contact {
+    padding: 40px 0px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project {
+    text-align: left;
+    padding: 30px;
+}
+
+.project img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    list-style: none; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: center; 
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+ul li p {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
