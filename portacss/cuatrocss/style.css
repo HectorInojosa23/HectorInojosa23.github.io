@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.navContainer {
+
+    
+    background-color: #ff00008a;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10; 
+
+
+}
+
+.navContainer h1 {
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    align-items: center;
+    }
+
+
+.navbar #inicio {
+    font-size: large;
+    color: #fff;
+    display: flex;
+    margin-right: 4%;
+}
+
+
+.navbar {
+  
+    display: flex;
+   
+}
+
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar #inicio a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.boton {
+
+width: 100px;
+border: solid 2px black;
+border-radius: 25px;
+background-color: #fff;
+padding: 10px;
+color: black;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+display: flex;
+justify-content: center;
+
+}
+
+.boton {
+
+    margin-left: 15%;
+    
+    }
+
+    .boton a {
+
+        text-decoration: none;
+        color: #000000;
+        
+        }
+
+
+#despliegue {
+
+    display: none;
+
+}
+
+#apare {
+    display: none;
+    cursor: pointer;
+
+    }
+
+@media (max-width: 768px) {
+    /* Estilos para dispositivos móviles */
+    
+    .navContainer h1 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .navContainer {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    #despliegue{
+        width: 100%;
+
+    }
+    #despliegue #inicio a {
+        width: 100%;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+
+    #despliegue ul {
+      width: 100%; /* Ancho completo para que se muestre en columnas */
+      /* Agrega un margen inferior para separar las columnas */
+      list-style: none;
+          }
+
+    #despliegue li a {
+        width: 100%; /* Ancho completo para que se muestre en columnas */
+        /* Agrega un margen inferior para separar las columnas */
+        color: #000000;
+        text-decoration: none;
+              }
+
+
+    .navbar {display: none;}
+
+    #apare {
+
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+    display: flex;
+    width: 10px;
+    justify-content: center;
+
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.card {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.image {
+   width: 100%;
+   text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.card h1 {
+    margin-bottom: 10px;
+    color: orange;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+    /* Estilos para dispositivos móviles */
+    .content {
+      display: block; /* Cambia a bloque para que se apile en columnas */
+      margin-top: 60px;
+
+    }
+  
+    .card, .image {
+      width: 100%; /* Ancho completo para que se muestre en columnas */
+      margin-bottom: 20px; /* Agrega un margen inferior para separar las columnas */
+    }
+  }
+
+
+
+  .button {
+    background-color: #FFA500; /* Naranja */
+    color: #fff; /* Blanco */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /* Para que se comporte como un botón */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.button:hover {
+    background-color: #FF8C00; /* Naranja más oscuro al pasar el ratón */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada al pasar el ratón */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.cartas {
+    width: 25%; /* Ajusta el ancho según sea necesario */
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cartas h3 {
+    margin-top: 0;
+    color: #FFA500;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .cartas {
+        width: 60%;
+        text-align: justify;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+
+
+}
